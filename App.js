@@ -1,4 +1,6 @@
+import React from react;
 import { StatusBar } from 'expo-status-bar';
+import react from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
@@ -18,3 +20,12 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
+
+const [state, setState]= useState({});
+
+const getResult = useCallback(
+  () => {
+
+  },
+  []
+)
